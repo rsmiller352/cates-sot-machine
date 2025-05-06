@@ -1,0 +1,57 @@
+
+body {
+  font-family: "Comic Sans MS", cursive;
+  background: #ffccf9;
+  text-align: center;
+  padding-top: 50px;
+  color: #333;
+}
+
+.machine {
+  background: #fff0f5;
+  border: 5px solid #ff69b4;
+  border-radius: 20px;
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.reels {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.reel {
+  background: #fff;
+  border: 2px solid #999;
+  border-radius: 10px;
+  font-size: 2em;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reel img {
+  width: 60px;
+  height: 60px;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 1.5em;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  min-height: 40px;
+}
